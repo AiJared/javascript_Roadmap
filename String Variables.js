@@ -89,3 +89,38 @@ var LastNameLength = 0;
 var LastName = "Otieno";
 LastNameLength = LastName.length
 console.log(LastNameLength)
+
+// Bracket Notation to find Nth character in string
+var firstLetterOfFirstName = "";
+var secondLetterOfFirstName = "";
+var firstname = "Walter";
+firstLetterOfFirstName = firstname[0];
+secondLetterOfFirstName = firstname[1];
+console.log(firstLetterOfFirstName);
+console.log(secondLetterOfFirstName);
+
+var firstLetterOfLastName = "";
+var lastname = "Otieno";
+firstLetterOfLastName = lastname[0];
+console.log(firstLetterOfLastName);
+var secondLetterOfLastName = "";
+secondLetterOfLastName = lastname[1];
+console.log(secondLetterOfLastName);
+var lastLetterOfLastName = "";
+lastLetterOfLastName = lastname[5];
+console.log(lastLetterOfLastName);
+//You can also get the last letter of the string as shown below
+var lastLetterOfFirstName = firstname[firstname.length - 1];
+console.log(lastLetterOfFirstName);
+
+// Stirngs Immutability
+/* Strings are immutable which makes it hard to change them character by character.
+However you can change the whole string */
+var Hello = "Jello World";
+// can be changed to:
+Hello = "Hello World";
+console.log(Hello);
+
+// Bracket Notation to find Nth to last Letter of a string
+var thirdToLastLetterOfFirstName = firstname[firstname.length - 4];
+console.log(thirdToLastLetterOfFirstName);
