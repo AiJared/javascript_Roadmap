@@ -32,3 +32,34 @@ anArray[1][0] = "Anything";
 console.log(anArray);
 theArray[0][1] = 50;
 console.log(theArray);
+
+// Manipulate Array with push
+// The push function appends data to the end of an array
+anArray.push(["Jared", "Javascript", "Programmer"]);
+console.log(anArray);
+theArray.push("React", "Frontend", ["Web", "Development"]);
+console.log(theArray);
+
+// Manipulate Arrays with pop
+// The pop function removes the last data in the array
+var removedFromanArray = anArray.pop();
+console.log(anArray);
+console.log(removedFromanArray);
+var removedFromtheArray = theArray.pop();
+console.log(theArray);
+console.log(removedFromtheArray);
+
+// Manipulate the Arrays with shift()
+// the shift method removes the first data in the array
+anArray[0] = "Kenya";
+console.log(anArray);
+var removedFromAnArray = anArray.shift();
+console.log(anArray);
+console.log(removedFromAnArray);
+
+// Manipulating the array with unshift()
+// unshift method adds an element to the beggining of the array
+anArray.unshift("Happy");
+console.log(anArray);
+theArray.unshift("King");
+console.log(theArray);
