@@ -67,3 +67,25 @@ var language = "javascript";
 var coder = "Jared codes in ";
 coder += language;
 console.log(coder);
+
+// Finding the length of a string
+var firstNameLength = 0;
+var firstName = "Ada";
+
+firstNameLength = firstName.length
+console.log(firstNameLength)
+
+var lastNameLength = 0;
+var lastName = "LoveLace";
+lastNameLength = lastName.length;
+console.log(lastNameLength);
+
+var FirstNameLength = 0;
+var FirstName = "Jared";
+FirstNameLength = FirstName.length
+console.log(FirstNameLength)
+
+var LastNameLength = 0;
+var LastName = "Otieno";
+LastNameLength = LastName.length
+console.log(LastNameLength)
