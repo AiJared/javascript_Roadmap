@@ -147,7 +147,7 @@ function compareEquality(a, b){
 console.log(compareEquality(10, '10'));
 
 // Comparison with the inequality operator
-function testNotEqual(){
+function testNotEqual(val){
     if (val != 99){
         return "Not Equal";
     }
@@ -301,9 +301,9 @@ function prac(name){
         return "Invalid name";
     }
 }
-console.log(prac(Jared));
-console.log(prac(Otieno));
-console.log(prac(Kim));
+console.log(prac("Jared"));
+console.log(prac("Otieno"));
+console.log(prac("Kim"));
 
 function prac1(number){
     if (number >= 1 && number <=10){
