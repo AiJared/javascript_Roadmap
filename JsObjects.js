@@ -141,3 +141,64 @@ function checkObj(checkProp) {
 console.log(checkObj("gift"));
 
 // Manipulating COmplex Objects
+var myMusic = [
+    {
+        "artist": "Billy Joel",
+        "title": "Piano Man",
+        "relaese_year": 1973,
+        "formats": [
+            "CD",
+            "8T",
+            "LP"
+        ],
+        "gold": true
+    },
+    {
+        "artist": "Beau Carnes",
+        "title": "Cereal Man",
+        "release_year": 2022,
+        "formats": [
+            "Youtube Video"
+        ]
+    }
+]
+
+// Accessing Nested Objects
+// We do this using either dot or bracket notations or both
+var myStorage = {
+    "car": {
+        "inside": {
+            "glove box": "maps",
+            "passenger seat": "crumbs"
+        },
+        "outside": {
+            "trunk": "jack"
+        }
+    }
+};
+
+var gloveBoxContents = myStorage.car.inside["glove box"];
+console.log(gloveBoxContents);
+
+// Nested Arrays and Accessing Nested Arrays
+var myPlants = [
+    {
+        type: "flowers",
+        list: [
+            "rose",
+            "tulip",
+            "dandelion"
+        ]
+    },
+    {
+        type: "trees",
+        list: [
+            "fir",
+            "pine",
+            "birch"
+        ]
+    }
+];
+
+var secondTree = myPlants[1].list[1];
+console.log(secondTree);
