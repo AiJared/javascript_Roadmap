@@ -32,3 +32,14 @@ function myLocalScope(){
 myLocalScope();
 
 // console.log(myVar); will bring an error because the variable is defined locally inside that function and not globally
+// Global vs local scope variables
+var outerWear = "T-Shirt"; // Global variable because it is outside a function
+
+function myOutfit(){
+    var outerWear = "sweater"; // local variable because it is inside a function
+
+    return outerWear; // return our local variable
+}
+
+console.log(myOutfit()); // it will output our local variable
+console.log(outerWear); // it will output our global variable
