@@ -43,3 +43,17 @@ function myOutfit(){
 
 console.log(myOutfit()); // it will output our local variable
 console.log(outerWear); // it will output our global variable
+
+// return a value from a function using the return keyword
+function minusSeven(num){
+    return num -7;
+}
+
+console.log(minusSeven(10));
+
+function timesFive(num){
+    return num * 5;
+}
+console.log(timesFive(5));
+
+// 
