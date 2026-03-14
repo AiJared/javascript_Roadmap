@@ -13,7 +13,7 @@ for example
 function freezeObj() {
     "use strict";
     const MATH_CONSTANTS = {
-        PI: 2.14
+        PI: 3.14
     };
 
     Object.freeze(MATH_CONSTANTS);
