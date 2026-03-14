@@ -1,6 +1,8 @@
-var number = 5; // In line comment
+let number = 5; // In line comment
 
-/* This is a multilinr
+/* This is a multiliner
 comment */
 
 number = 9;
+
+console.log(number);
