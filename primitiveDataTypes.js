@@ -38,3 +38,17 @@ will be substituted in it's place as show below.
 let language = "Javascript";
 let message = `Let's learn ${language}`;
 console.log(message);
+
+// Escape Characters
+/*
+An escape character helps an interpreter recognize a specific character as
+part of the output for example an apostrophe which would otherwise be seen
+as a quote closing a string. Now it does way more than just that though.
+In javascript that escape character is a backslash.
+Let's look at the example below.
+*/
+
+let str1 = "What's your name? Is it \"Mike\"?";
+let str2 = 'What\'s your name? Is it "Mike"?';
+console.log(str1);
+console.log(str2);
