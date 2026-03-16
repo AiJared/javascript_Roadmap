@@ -52,3 +52,13 @@ let str1 = "What's your name? Is it \"Mike\"?";
 let str2 = 'What\'s your name? Is it "Mike"?';
 console.log(str1);
 console.log(str2);
+
+/*
+As I said earlier, the escape character can be used for varous reasons.
+For example inserting a new line or even adding in the real backslash.
+*/
+
+let str3 = "New \nline";
+let str4 = "This contains a backslassh \\";
+console.log(str3);
+console.log(str4);
