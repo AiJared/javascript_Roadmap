@@ -156,3 +156,32 @@ want to make sure that they are actually equal, not just that they are
 undefined. This can make someone's pet's name and their last name might be
 considered equal whereas they are just empty values.
 */
+
+// null
+/*
+In the undefined data type we saw a problem that comes with two undefined
+variables being considered as equal. The null data type solves this by
+actually saying that a variable is empty. This is case sensitive so it
+should be all lower case.
+*/
+
+let empty = null;
+
+/*
+If you set an empty variable to null you will not encounter the same equality
+issue with setting it to undefined. This is the reason why it is better
+practice to it null to a variable when you want to say that it is empty
+and unkown at first. Let's it in action below.
+*/
+
+let terribleThingToDo = undefined;
+let lastName;
+console.log("Same undefined: ", lastName === terribleThingToDo);
+
+let betterOption = null;
+console.log("Same null: ", lastName === betterOption);
+
+/*
+From the output logs you will notice that the the first two are true but,
+comparing lastName with betterOption gives false.
+*/
