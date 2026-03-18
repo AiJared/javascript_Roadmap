@@ -134,3 +134,25 @@ The core importance of symbols is to bring uniqueness.
 These symbol data types can be very handy as properties of objects which
 we will see later.
 */
+
+// Undefined
+/*
+Javascript is a very special programming language. Special in that you can
+create a variable without a value and it will assign to it an "undefined"
+data type.
+*/
+
+let unasigned;
+console.log(unasigned);
+
+/*
+As you will see in the output logs, javascript returns "undefined".
+You can also directly assign undefined to a variable but it is not adviced
+to do so for a number of reasons, for example when checking whether two
+variables are the same. If one variable is undefined and you have your own
+manually defined variable as undefined, they will be considered equal. This
+is a problem because if you are checking the equality of two variables you
+want to make sure that they are actually equal, not just that they are 
+undefined. This can make someone's pet's name and their last name might be
+considered equal whereas they are just empty values.
+*/
