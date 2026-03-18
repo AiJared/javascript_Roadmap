@@ -109,3 +109,28 @@ where we only have two options and nothing in between as shown below.
 */
 let lightIsOn = true;
 let itemIsDeleted = false;
+
+// Symbol
+/*
+The symbol data type is brand new and was introduced in the ES6. It is used
+when it is important that the variables are not equal if the data type and
+the values are the same. Take a look at the example below.
+*/
+
+let strng1 = "Javascript is fun!";
+let strng2 = "Javascript is fun!";
+
+console.log("The two strings above are the same: ", strng1 === strng2);
+
+let sym1 = Symbol("Javascript is fun!");
+let sym2 = Symbol("Javascript is fun!");
+
+console.log("The two symbols above are the same: ", sym1 === sym2);
+
+/*
+As you will see in the logs when you output the code above, the two symbols
+are not the same even though both are strings and the values are the same.
+The core importance of symbols is to bring uniqueness.
+These symbol data types can be very handy as properties of objects which
+we will see later.
+*/
