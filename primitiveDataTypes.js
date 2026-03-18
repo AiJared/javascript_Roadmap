@@ -99,3 +99,13 @@ If we try to add a BigInt with a number for example, it will throw a
 TypeError. We cannot mix up a BigInt with a number when doing operations.
 BigIn can only work with another BigInt.
 */
+
+// Boolean
+/*
+As you know from also other programming languages, the boolean data type
+only stores two values, "true" and "false". Nothing in between. This can
+also be used to show "on/off" or "yes/no". It is applicable in programs
+where we only have two options and nothing in between as shown below.
+*/
+let lightIsOn = true;
+let itemIsDeleted = false;
