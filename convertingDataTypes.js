@@ -71,4 +71,19 @@ console.log(strToNr3, typeof strToNr3);
 /*
 As you can see in the logs, it return NaN. Here, any string can't be converted
 to number by simply removing the quotes is returned as not a number.
+
+Now let's see how converting string to boolean works out.
+*/
+
+let strToBool2 = "false";
+strToBool2 = Boolean(strToBool2);
+console.log(strToBool2, typeof strToBool2);
+
+let strToBool3 = "";
+strToBool3 = Boolean(strToBool3);
+console.log(strToBool3, typeof strToBool3);
+
+/*
+As you can see in the logs, converting any string to boolean returns true
+except for the empty string.
 */
