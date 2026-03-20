@@ -59,4 +59,16 @@ console.log("empty string", strToNr2, typeof strToNr2);
 As you can see in the output logs, conversation of null and empty string to
 a number returns to 0. This is a choice that was made by the makers of 
 Javascript.
+
+Now let's try to convert a string that can't be converted to a number to Number
+and see what happens.
+*/
+
+let strToNr3 = "hello";
+strToNr3 = Number(strToNr3);
+console.log(strToNr3, typeof strToNr3);
+
+/*
+As you can see in the logs, it return NaN. Here, any string can't be converted
+to number by simply removing the quotes is returned as not a number.
 */
