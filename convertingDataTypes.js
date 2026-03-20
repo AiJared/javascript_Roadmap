@@ -40,3 +40,23 @@ console.log(strToNr, typeof strToNr);
 let strToBool = "Any string will be true";
 strToBool = Boolean(strToBool);
 console.log(strToBool, typeof strToBool);
+
+/*
+This might seem straightforward but not every conversation is like that,
+especially if we are working with null and empty strings. Let's take a look
+at the examples below.
+*/
+
+let nullToNr = null;
+nullToNr = Number(nullToNr);
+console.log("null", nullToNr, typeof nullToNr);
+
+let strToNr2 = "";
+strToNr2 = Number(strToNr2);
+console.log("empty string", strToNr2, typeof strToNr2);
+
+/*
+As you can see in the output logs, conversation of null and empty string to
+a number returns to 0. This is a choice that was made by the makers of 
+Javascript.
+*/
