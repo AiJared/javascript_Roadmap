@@ -18,3 +18,25 @@ So Javascript would convert nr into a string then give us "22"
 */
 
 console.log(nr + nr2);
+
+/*
+There are three conversation methods; String(), Number() and Boolean().
+The first one converts a variable to a string. It puts quatation marks on
+any variable really including undefined and a null and makes it a string.
+The second one converts variables to number. If the variable can't be converted
+it returns NaN (not a number). The third one converts variables to boolean
+except null, undefined, 0 (number), empty string and NaN. Let's see them in
+action below.
+*/
+
+let nrToStr = 6;
+nrToStr = String(nrToStr);
+console.log(nrToStr, typeof nrToStr);
+
+let strToNr = "12";
+strToNr = Number(strToNr);
+console.log(strToNr, typeof strToNr);
+
+let strToBool = "Any string will be true";
+strToBool = Boolean(strToBool);
+console.log(strToBool, typeof strToBool);
