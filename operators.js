@@ -28,3 +28,26 @@ to ensure space between it and the next string.
 let str1 = "Hello ";
 let str2 = "Jared";
 let result2 = str1 + str2;
+
+// Next is Subtraction
+/*
+Subtraction works as well as we would expect it to with numbers. It uses 
+the - operator. However, it behaves differently if we introduce a string that
+cannot be converted into a number, check this out.
+*/
+
+let nr3 = 20;
+let nr4 = 4;
+let result3 = nr3 - nr4;
+
+let str3 = "Hi";
+let nr5 = 3;
+let result4 = str3 - nr5;
+
+console.log(result3, result4);
+
+/*
+As you will in the output logs, the first one successfully subtracts 4 from 20
+and returns 16 but the second one returs NaN because the string cannot be
+converted to a number.
+*/
