@@ -51,3 +51,20 @@ As you will in the output logs, the first one successfully subtracts 4 from 20
 and returns 16 but the second one returs NaN because the string cannot be
 converted to a number.
 */
+
+// Next is Multiplication
+/*
+We can successfully multipy two numbers in Javascript using the * operator.
+However, unlike in most other languages, we cannot multiply a number and 
+a string. The result of multiplying a numeric and non-numeric is NaN.
+*/
+
+let nr6 = 15;
+let nr7 = 10;
+let str4 = "Hi";
+let nr8 = 3;
+
+let result5 = nr6 * nr7;
+let result6 = str4 * nr8;
+
+console.log(result5, result6);
