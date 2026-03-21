@@ -68,3 +68,14 @@ let result5 = nr6 * nr7;
 let result6 = str4 * nr8;
 
 console.log(result5, result6);
+
+// Next is the Division Operator
+/*
+Another straightforward operation is the division of numbers. We use the /
+operator to divide two numbers
+*/
+
+let nr9 = 10;
+let nr10 = 2;
+let result7 = nr9 / nr10;
+console.log(result7);
