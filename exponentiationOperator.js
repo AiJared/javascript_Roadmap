@@ -1,5 +1,4 @@
-// This is a continuation of Arithmetic Operators
-// Let's Continue With Exponentiation
+// This is one of the Arithmetic Operators
 /*
 Exponentiation means raising a certain base number to the power of the exponent.
 A good example is x to the power of y. It means that we multiply x by itself
