@@ -27,3 +27,9 @@ because x is a number and y is a string.
 */
 
 console.log(x === y);
+
+/*
+This is sometimes "strict equality", this is what you should mostly be using
+since it's the right way of making sure that the variables really are the
+equal.
+*/
