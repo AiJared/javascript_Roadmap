@@ -51,3 +51,17 @@ To check for strict non-equaltiy, we would need to use double equal sign.
 */
 
 console.log(x !== y);
+
+// Greater than and Smaller than
+/*
+This comparison works with the values of the variables. The greater than
+returns true if the one on the left hand side is greater than the one on
+the right hand side. We use the > operator. We also have greater than or
+equal to >= and returns true if either the left hand side is greater than or
+equal to the right hand side.
+*/
+
+console.log(y > x); // This logs true
+console.log(x > y); // This logs false
+console.log(y > y) // This logs false
+console.log(y >= y) // This logs true
