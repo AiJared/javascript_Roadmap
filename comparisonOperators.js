@@ -65,3 +65,14 @@ console.log(y > x); // This logs true
 console.log(x > y); // This logs false
 console.log(y > y) // This logs false
 console.log(y >= y) // This logs true
+
+/*
+Smaller than and smaller than or equal to are the exact opposites of greater
+than or equal to. Here we use the < operator for smaller than and <= for
+small than or eqaual to.
+*/
+
+console.log(y < x); // This logs false
+console.log(x < y); // This logs true
+console.log(y < y); // This logs false
+console.log(y <= y); // This logs true
