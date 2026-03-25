@@ -1,0 +1,29 @@
+/*
+The outcome of a comparison operator is always a Boolean, hence different from
+all the other operators.
+*/
+
+// Equality Comparison
+/*
+There are two equality operators that determine whether two values are equal.
+The first flavor is equal value only and the second one is equal value and
+data type. The first one returns true as long as the values are the same
+even if the type are different and second one only returns true if both
+the value and the type are the same.
+*/
+
+let x = 5;
+let y = "5";
+console.log(x == y);
+
+/*
+The double equal sign here is the one that is used to check if the values
+are the same and not the data type. Both have the value 5 so it will log
+to the console. This type of equality is sometimes called "loose equality".
+
+To check whether both the value and the data type are equal we would need to
+use the triple equal sign operator. In the example above it would log false
+because x is a number and y is a string.
+*/
+
+console.log(x === y);
