@@ -3,7 +3,7 @@ The outcome of a comparison operator is always a Boolean, hence different from
 all the other operators.
 */
 
-// Equality Comparison
+// Equal
 /*
 There are two equality operators that determine whether two values are equal.
 The first flavor is equal value only and the second one is equal value and
@@ -33,3 +33,21 @@ This is sometimes "strict equality", this is what you should mostly be using
 since it's the right way of making sure that the variables really are the
 equal.
 */
+
+// Not Equal
+/*
+This is the oposite of the equal comparison operator. It returns true if
+the two are not the same and false if they are. We use the exclamation
+mark for not equal.
+*/
+
+console.log(x != y);
+
+/*
+The above is going to return false because with just a single equal sign
+it is comparing loosely and as we know, the values of both x and y are
+the same.
+To check for strict non-equaltiy, we would need to use double equal sign. 
+*/
+
+console.log(x !== y);
