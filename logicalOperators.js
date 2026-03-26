@@ -42,3 +42,13 @@ log below.
 */
 
 console.log(x > y || y > z);
+
+// Not
+/*
+In some cases you might want to negate a Boolean and that's where the not
+operator comes in. By doing so, you make it the opposite value. It can
+be done with an exclamation mark which reads as not.
+*/
+
+let a = false;
+console.log(!a);
