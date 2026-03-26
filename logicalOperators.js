@@ -52,3 +52,16 @@ be done with an exclamation mark which reads as not.
 
 let a = false;
 console.log(!a);
+
+/*
+As you can see in the log above, it changes it to true. The same can be
+applied to expressions but you will have to group the whole expression 
+first. Take a look at the example below.
+*/
+
+console.log(!(x < y));
+
+/*
+As you know x really is smaller than y so it should be true but since we 
+are using the not operator, it flips it to false.
+*/
