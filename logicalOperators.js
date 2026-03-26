@@ -36,4 +36,9 @@ console.log(x > y || y < z);
 /*
 It doesn't matter that x is not greater than y, y is smaller than z so we 
 get true.
+
+Now if both expressions are false, it will return false as shown in the
+log below.
 */
+
+console.log(x > y || y > z);
