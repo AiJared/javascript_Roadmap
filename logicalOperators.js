@@ -24,3 +24,16 @@ and y is smaller than z.
 
 console.log(x > y && y < z); // This will log false since x is smaller than y
 
+// OR
+/*
+The operator is used if you want to check if just one of them is true. 
+We use || operator here. It doesn't matter if one is not true as long as
+the other is true and it will return true.
+*/
+
+console.log(x > y || y < z);
+
+/*
+It doesn't matter that x is not greater than y, y is smaller than z so we 
+get true.
+*/
