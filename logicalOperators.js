@@ -21,3 +21,6 @@ console.log(x < y && y < z);
 It logs true because both expressions are true, x really is smaller than y
 and y is smaller than z.
 */
+
+console.log(x > y && y < z); // This will log false since x is smaller than y
+
