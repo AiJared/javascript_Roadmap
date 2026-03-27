@@ -9,6 +9,9 @@ divided by squared height (in meters). Output the results to the console.
 */
 let heightInches = 50;
 let weightPounds = 100;
-let heightM = heightInches * 0.0254;
-let weightK = weightPounds / 2.2046;
+let heightM = heightInches * 0.0254; // converting inches to meters
+let weightK = weightPounds / 2.2046; // converting pounds to kilograms
 console.log("50 inches equals " + heightM + " meters " + " and 100 pounds equals " + weightK + " Kgs.");
+
+let bmi = weightK / heightM ** 2; // Calculating the BMI
+console.log("The BMI is: "+ bmi);
