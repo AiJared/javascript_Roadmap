@@ -2,6 +2,37 @@
 // Array uses square brackets '[]' and the data to be store is inside the bracket
 // Every element in the array is separated by a comma
 // Elements in an array can be of any data type and you mix data types inside an array
+// Creating an Array
+/*
+There are two different ways of creating an array. One is recommended
+and the second one isn't, check them out below.
+*/
+
+arr1 = new Array(1, 2, 3, 4); // first method
+arr2 = [1, 2, 3, 4]; // Second method
+
+/*
+Now the first method isn't adviced because it comes with a lot of
+issues, the second one, is both clean readable and straightup
+creates an array we will issues that come with the first one in a
+moment for example, if we try to create arrays of just single
+values in them, the first method will do something unexpected,
+check this out.
+*/
+
+arr3 = new Array(10);
+arr4 = [10];
+console.log(arr3);
+console.log(arr4);
+
+/*
+If we log both arrays, the first one (arr3) will create an array 
+of 10 undefined values while the second one (arr4) will create
+an array of value 10. See why it is recommended to use the second
+method now? So unless the goal is to create an array of undefined
+values, just use square brackets.
+*/
+
 var ourArray = ["John", 23];
 console.log(ourArray);
 var myArray = ["Quicny", 1];
