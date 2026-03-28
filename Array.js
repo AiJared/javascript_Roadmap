@@ -31,12 +31,18 @@ of 10 undefined values while the second one (arr4) will create
 an array of value 10. See why it is recommended to use the second
 method now? So unless the goal is to create an array of undefined
 values, just use square brackets.
+
+Again as mentioned above, an array can have values of different
+data types in it and it will store them as they are it won't try
+to convert them. Below are some examples.
 */
 
 var ourArray = ["John", 23];
 console.log(ourArray);
 var myArray = ["Quicny", 1];
 console.log(myArray);
+console.log(typeof ourArray[0]);
+console.log(typeof myArray[1]);
 
 // Nested Arrays
 /*A nested array is an array that have other arrays inside it
