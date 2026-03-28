@@ -44,6 +44,20 @@ console.log(myArray);
 console.log(typeof ourArray[0]);
 console.log(typeof myArray[1]);
 
+/*
+As you can see on logs, when you output the typeof each value
+separately it is exactly what it is meant to be.
+Now just like basic variables, we can also define arrays using
+"const", if we do that, the array itself won't be able to be 
+changed but we can change the values within it. Check out the
+example below.
+*/
+
+const arr = ["hi there!"];
+arr[0] = "new value";
+console.log(arr[0]);
+// arr = ["nope, now you are overwriting the entire array"];
+
 // Nested Arrays
 /*A nested array is an array that have other arrays inside it
 as it's elements. Those arrays that are inside this array also have
