@@ -57,6 +57,10 @@ const arr = ["hi there!"];
 arr[0] = "new value";
 console.log(arr[0]);
 // arr = ["nope, now you are overwriting the entire array"];
+/*
+If you try to change the whole array that is declare with const,
+you will get a "TypeError: Assignment to constant variable."
+*/
 
 // Nested Arrays
 /*A nested array is an array that have other arrays inside it
