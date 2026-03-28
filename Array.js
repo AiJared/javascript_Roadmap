@@ -2,10 +2,65 @@
 // Array uses square brackets '[]' and the data to be store is inside the bracket
 // Every element in the array is separated by a comma
 // Elements in an array can be of any data type and you mix data types inside an array
+// Creating an Array
+/*
+There are two different ways of creating an array. One is recommended
+and the second one isn't, check them out below.
+*/
+
+arr1 = new Array(1, 2, 3, 4); // first method
+arr2 = [1, 2, 3, 4]; // Second method
+
+/*
+Now the first method isn't adviced because it comes with a lot of
+issues, the second one, is both clean readable and straightup
+creates an array we will issues that come with the first one in a
+moment for example, if we try to create arrays of just single
+values in them, the first method will do something unexpected,
+check this out.
+*/
+
+arr3 = new Array(10);
+arr4 = [10];
+console.log(arr3);
+console.log(arr4);
+
+/*
+If we log both arrays, the first one (arr3) will create an array 
+of 10 undefined values while the second one (arr4) will create
+an array of value 10. See why it is recommended to use the second
+method now? So unless the goal is to create an array of undefined
+values, just use square brackets.
+
+Again as mentioned above, an array can have values of different
+data types in it and it will store them as they are it won't try
+to convert them. Below are some examples.
+*/
+
 var ourArray = ["John", 23];
 console.log(ourArray);
 var myArray = ["Quicny", 1];
 console.log(myArray);
+console.log(typeof ourArray[0]);
+console.log(typeof myArray[1]);
+
+/*
+As you can see on logs, when you output the typeof each value
+separately it is exactly what it is meant to be.
+Now just like basic variables, we can also define arrays using
+"const", if we do that, the array itself won't be able to be 
+changed but we can change the values within it. Check out the
+example below.
+*/
+
+const arr = ["hi there!"];
+arr[0] = "new value";
+console.log(arr[0]);
+// arr = ["nope, now you are overwriting the entire array"];
+/*
+If you try to change the whole array that is declare with const,
+you will get a "TypeError: Assignment to constant variable."
+*/
 
 // Nested Arrays
 /*A nested array is an array that have other arrays inside it
