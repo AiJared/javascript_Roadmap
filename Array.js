@@ -95,6 +95,25 @@ cars[0] = "Tesla";
 console.log(cars[0]); // This will log Tesla because it overwrites Toyota
 console.log(cars); // The array will start with Tesla as the first element
 
+/*
+Now remember when we try to access elements of negative index
+positions and those of none-existent index value Javascript gives
+us undefined right? If we try to overwrite with a negative index
+position or a none-exsitent one, Javascript will add them to the 
+array. I am not going to demonstrate in a live code or perhaps I
+can put it as comment below:
+
+cars[-1] = "Kia";
+cars[3] = "Fiat";
+console.log(cars[-1]);
+console.log(cars[3]);
+
+We will look it what is happening here later but for now just
+know that this is not the recommended way of adding elements to
+an array in Javascript.
+*/
+
+
 // Nested Arrays
 /*A nested array is an array that have other arrays inside it
 as it's elements. Those arrays that are inside this array also have
