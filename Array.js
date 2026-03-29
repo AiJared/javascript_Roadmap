@@ -62,6 +62,92 @@ If you try to change the whole array that is declare with const,
 you will get a "TypeError: Assignment to constant variable."
 */
 
+// Accessing Elements
+/*
+Now I might have demonstrated it above a bit but did not explain
+it, accessing elements of an array is easier really. You just 
+need to specify the index position it is at. When you create an
+array Javascript assigns each element an index position starting
+from 0 for the first element. To access any element, all you have
+to do is call the array put square brackets at the end and add the
+index position inside of the square brackets. Check out the example
+below.
+*/
+cars = ["Toyota", "Renault", "BMW"];
+console.log(cars[0]); // This will log the first element(Toyota)
+console.log(cars[1]); // This will log the second elemet(Renault)
+console.log(cars[2]); // This will log the third element(BMW)
+
+/*
+Now in case we try to access an element using a negative index
+position or an index position that is higher than what the array
+has, it will log "undefined", Javascript doesn't throw errors 
+for this.
+*/
+
+// Overwriting Elements
+/*
+In Javascript you can change/overwrite the values of specific
+elements by accesing them via their index position and assigning
+a new value to it.
+*/
+cars[0] = "Tesla";
+console.log(cars[0]); // This will log Tesla because it overwrites Toyota
+console.log(cars); // The array will start with Tesla as the first element
+
+/*
+Now remember when we try to access elements of negative index
+positions and those of none-existent index value Javascript gives
+us undefined right? If we try to overwrite with a negative index
+position or a none-exsitent one, Javascript will add them to the 
+array. I am not going to demonstrate in a live code or perhaps I
+can put it as comment below:
+
+cars[-1] = "Kia";
+cars[3] = "Fiat";
+console.log(cars[-1]);
+console.log(cars[3]);
+
+We will look it what is happening here later but for now just
+know that this is not the recommended way of adding elements to
+an array in Javascript.
+*/
+
+// Built-in length Property
+/*
+To know the total number of values/elements in an array we use the 
+length property.
+*/
+colors = ["black", "Orange", "Pink"];
+booleans = [true, false, false, true];
+emptyArray = [];
+
+console.log("The length of colors: ", colors.length);
+console.log("The length of booleans: ", booleans.length);
+console.log("The length of emtpyArray: ", emptyArray.length);
+
+/*
+Now let's finally take a look at that none-existent index we talked
+about above, specifically adding new elements to it. 
+*/
+numbers = [12, 24, 36];
+numbers[5] = 48;
+console.log(numbers.length);
+/*
+In the logs you will notice that we have the length of the 
+array "numbers" as 6, so what's happening here? What Javascript
+just did is add our new element 48 at index 5 as we instructed it
+then filled the middle index values starting at 2 all the way to
+4 with emtpy items and still counted them. Take a look at the log
+below
+*/
+console.log("numbers: ", numbers);
+/*
+Notice the log includes the first three numbers then an empty
+part and finalizes with the one we added later.
+*/
+
+
 // Nested Arrays
 /*A nested array is an array that have other arrays inside it
 as it's elements. Those arrays that are inside this array also have
