@@ -113,6 +113,18 @@ know that this is not the recommended way of adding elements to
 an array in Javascript.
 */
 
+// Built-in length Property
+/*
+To know the total number of values/elements in an array we use the 
+length property.
+*/
+colors = ["black", "Orange", "Pink"];
+booleans = [true, false, false, true];
+emptyArray = [];
+
+console.log("The length of colors: ", colors.length);
+console.log("The length of booleans: ", booleans.length);
+console.log("The length of emtpyArray: ", emptyArray.length);
 
 // Nested Arrays
 /*A nested array is an array that have other arrays inside it
