@@ -85,6 +85,16 @@ has, it will log "undefined", Javascript doesn't throw errors
 for this.
 */
 
+// Overwriting Elements
+/*
+In Javascript you can change/overwrite the values of specific
+elements by accesing them via their index position and assigning
+a new value to it.
+*/
+cars[0] = "Tesla";
+console.log(cars[0]); // This will log Tesla because it overwrites Toyota
+console.log(cars); // The array will start with Tesla as the first element
+
 // Nested Arrays
 /*A nested array is an array that have other arrays inside it
 as it's elements. Those arrays that are inside this array also have
