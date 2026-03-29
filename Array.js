@@ -62,6 +62,20 @@ If you try to change the whole array that is declare with const,
 you will get a "TypeError: Assignment to constant variable."
 */
 
+// Accessing Elements
+/*
+Now I might have demonstrated it above a bit but did not explain
+it, accessing elements of an array is easier really. You just 
+need to specify the index position it is at. When you create an
+array Javascript assigns each element an index position starting
+from 0 for the first element. To access any element, all you have
+to do is call the array put square brackets at the end and add the
+index position inside of the square brackets. Check out the example
+below.
+*/
+cars = ["Toyota", "Renault", "BMW"];
+console.log(cars[0]); // This is log the first element(Toyota)
+
 // Nested Arrays
 /*A nested array is an array that have other arrays inside it
 as it's elements. Those arrays that are inside this array also have
