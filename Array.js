@@ -126,6 +126,28 @@ console.log("The length of colors: ", colors.length);
 console.log("The length of booleans: ", booleans.length);
 console.log("The length of emtpyArray: ", emptyArray.length);
 
+/*
+Now let's finally take a look at that none-existent index we talked
+about above, specifically adding new elements to it. 
+*/
+numbers = [12, 24, 36];
+numbers[5] = 48;
+console.log(numbers.length);
+/*
+In the logs you will notice that we have the length of the 
+array "numbers" as 6, so what's happening here? What Javascript
+just did is add our new element 48 at index 5 as we instructed it
+then filled the middle index values starting at 2 all the way to
+4 with emtpy items and still counted them. Take a look at the log
+below
+*/
+console.log("numbers: ", numbers);
+/*
+Notice the log includes the first three numbers then an empty
+part and finalizes with the one we added later.
+*/
+
+
 // Nested Arrays
 /*A nested array is an array that have other arrays inside it
 as it's elements. Those arrays that are inside this array also have
