@@ -74,7 +74,16 @@ index position inside of the square brackets. Check out the example
 below.
 */
 cars = ["Toyota", "Renault", "BMW"];
-console.log(cars[0]); // This is log the first element(Toyota)
+console.log(cars[0]); // This will log the first element(Toyota)
+console.log(cars[1]); // This will log the second elemet(Renault)
+console.log(cars[2]); // This will log the third element(BMW)
+
+/*
+Now in case we try to access an element using a negative index
+position or an index position that is higher than what the array
+has, it will log "undefined", Javascript doesn't throw errors 
+for this.
+*/
 
 // Nested Arrays
 /*A nested array is an array that have other arrays inside it
