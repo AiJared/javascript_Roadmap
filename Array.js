@@ -199,8 +199,16 @@ If we were to increase the second parameter to a number higher than
 the array, it would replace those values that it can starting at the
 specified starting index position ofcourse then just stop as soon as
 as it runs out of values.
+Another thing is that we can add another array to the existing array
+using the concat() method. This way you can create an array of a 
+concatenation of the two arrays. The elements of the first array
+will be first then followed by the elements of the second array or the
+one following the concat() method. Check this out.
 */
-
+arr5 = [1, 2, 3];
+arr6 = [4, 5, 6];
+arr7 = arr5.concat(arr6);
+console.log(arr7);
 
 
 
