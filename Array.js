@@ -177,6 +177,15 @@ console.log(favoriteFruites);
 console.log("The length of favoriteFruites: ", favoriteFruites.length);
 console.log("The length of favoriteFruites using the variable: ", lengthOfFavoriteFruites);
 
+/*
+Now if you wanted to add elements at a specific index, you would use
+the splic() method. Check this out.
+*/
+let arrOfShapes = ["circle", "triangle", "rectangle", "Pentagon"];
+arrOfShapes.splice(2, 0, "square", "trapezoid");
+console.log(arrOfShapes);
+
+
 
 // Nested Arrays
 /*A nested array is an array that have other arrays inside it
