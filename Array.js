@@ -193,7 +193,14 @@ elements we want to delete starting at our previously defined
 starting index in our case it is 0 and finally the third parameter
 is the elements themselves that we are inserting starting at the
 start index in our case square and trapeziod.
+So had placed 2 in the place of 0, it would have deleted rectangle and 
+pentagon and replace them with square and trapezoid.
+If we were to increase the second parameter to a number higher than
+the array, it would replace those values that it can starting at the
+specified starting index position ofcourse then just stop as soon as
+as it runs out of values.
 */
+
 
 
 
