@@ -185,6 +185,17 @@ let arrOfShapes = ["circle", "triangle", "rectangle", "Pentagon"];
 arrOfShapes.splice(2, 0, "square", "trapezoid");
 console.log(arrOfShapes);
 
+/*
+Now pay attention here, the slice methods takes three parameters,
+the first parameter is the index position where you want to start
+at in our case it is 2, the second parameter is the number of 
+elements we want to delete starting at our previously defined 
+starting index in our case it is 0 and finally the third parameter
+is the elements themselves that we are inserting starting at the
+start index in our case square and trapeziod.
+*/
+
+
 
 
 // Nested Arrays
