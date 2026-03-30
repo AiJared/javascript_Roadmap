@@ -159,6 +159,16 @@ existing element or skipping certain index positions and creating
 empty items. 
 */
 
+// Adding and Replacing Elements
+/*
+We can add new elements to the array using the push method.
+This method adds new elements to the end of the array.
+*/
+favoriteFruites = ["Mango", "Banana", "Pineapple"];
+favoriteFruites.push("Apple");
+console.log(favoriteFruites);
+
+
 
 // Nested Arrays
 /*A nested array is an array that have other arrays inside it
