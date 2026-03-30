@@ -210,6 +210,12 @@ arr6 = [4, 5, 6];
 arr7 = arr5.concat(arr6);
 console.log(arr7);
 
+/*
+The concat method can also be used to add values, both single values
+and also multiple values using comma separation to an existing array.
+*/
+arr8 = arr7.concat(7, 8, 9);
+console.log(arr8);
 
 
 
