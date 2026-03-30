@@ -147,6 +147,77 @@ Notice the log includes the first three numbers then an empty
 part and finalizes with the one we added later.
 */
 
+// Array Methods
+/*
+We have worked with one array property which is the length property.
+In arrays, we also have methods and unlike properties which just
+hold values, methods perform actions.
+We also saw that we can add elements to an array by assigning them
+to a new index position but that is not the recommended way of adding
+elements since it can cause issues like accidentally overwriting an 
+existing element or skipping certain index positions and creating
+empty items. 
+*/
+
+// Adding and Replacing Elements
+/*
+We can add new elements to the array using the push method.
+This method adds new elements to the end of the array.
+*/
+favoriteFruites = ["Mango", "Banana", "Pineapple"];
+favoriteFruites.push("Apple");
+console.log(favoriteFruites);
+/*
+Now check this out, the push method returns the length of the array
+which we can store in a new variable and use it together with the push
+method to add new elements to the end of the array.
+*/
+let lengthOfFavoriteFruites = favoriteFruites.push("Grapes");
+console.log(favoriteFruites);
+console.log("The length of favoriteFruites: ", favoriteFruites.length);
+console.log("The length of favoriteFruites using the variable: ", lengthOfFavoriteFruites);
+
+/*
+Now if you wanted to add elements at a specific index, you would use
+the splic() method. Check this out.
+*/
+let arrOfShapes = ["circle", "triangle", "rectangle", "Pentagon"];
+arrOfShapes.splice(2, 0, "square", "trapezoid");
+console.log(arrOfShapes);
+
+/*
+Now pay attention here, the slice methods takes three parameters,
+the first parameter is the index position where you want to start
+at in our case it is 2, the second parameter is the number of 
+elements we want to delete starting at our previously defined 
+starting index in our case it is 0 and finally the third parameter
+is the elements themselves that we are inserting starting at the
+start index in our case square and trapeziod.
+So had placed 2 in the place of 0, it would have deleted rectangle and 
+pentagon and replace them with square and trapezoid.
+If we were to increase the second parameter to a number higher than
+the array, it would replace those values that it can starting at the
+specified starting index position ofcourse then just stop as soon as
+as it runs out of values.
+Another thing is that we can add another array to the existing array
+using the concat() method. This way you can create an array of a 
+concatenation of the two arrays. The elements of the first array
+will be first then followed by the elements of the second array or the
+one following the concat() method. Check this out.
+*/
+arr5 = [1, 2, 3];
+arr6 = [4, 5, 6];
+arr7 = arr5.concat(arr6);
+console.log(arr7);
+
+/*
+The concat method can also be used to add values, both single values
+and also multiple values using comma separation to an existing array.
+*/
+arr8 = arr7.concat(7, 8, 9);
+console.log(arr8);
+
+
 
 // Nested Arrays
 /*A nested array is an array that have other arrays inside it
