@@ -147,6 +147,18 @@ Notice the log includes the first three numbers then an empty
 part and finalizes with the one we added later.
 */
 
+// Array Methods
+/*
+We have worked with one array property which is the length property.
+In arrays, we also have methods and unlike properties which just
+hold values, methods perform actions.
+We also saw that we can add elements to an array by assigning them
+to a new index position but that is not the recommended way of adding
+elements since it can cause issues like accidentally overwriting an 
+existing element or skipping certain index positions and creating
+empty items. 
+*/
+
 
 // Nested Arrays
 /*A nested array is an array that have other arrays inside it
