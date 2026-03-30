@@ -167,7 +167,15 @@ This method adds new elements to the end of the array.
 favoriteFruites = ["Mango", "Banana", "Pineapple"];
 favoriteFruites.push("Apple");
 console.log(favoriteFruites);
-
+/*
+Now check this out, the push method returns the length of the array
+which we can store in a new variable and use it together with the push
+method to add new elements to the end of the array.
+*/
+let lengthOfFavoriteFruites = favoriteFruites.push("Grapes");
+console.log(favoriteFruites);
+console.log("The length of favoriteFruites: ", favoriteFruites.length);
+console.log("The length of favoriteFruites using the variable: ", lengthOfFavoriteFruites);
 
 
 // Nested Arrays
