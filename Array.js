@@ -243,8 +243,18 @@ Remember that the splice() method took three parameters when used
 to adding new elements right, when it comes to deleting it only
 takes two, the first one is the starting index and the second one
 is the number of elements to be deleted.
-*/
 
+Now if you wish to delete an element and not change any of the later
+indeces you can use the operator delete. It is not a method but
+can change the value of a certain position to undefined.
+*/
+delete arr8[0];
+console.log(arr8);
+
+/*
+The delete operator is useful if you want to retain the length
+of the array for some reason.
+*/
 
 
 // Nested Arrays
