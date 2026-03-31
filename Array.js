@@ -217,6 +217,14 @@ and also multiple values using comma separation to an existing array.
 arr8 = arr7.concat(7, 8, 9);
 console.log(arr8);
 
+// Deleting Elements
+/*
+There are several ways in which you can delete elements from 
+an array. Deleting the last element is done with pop().
+*/
+arr8.pop();
+console.log(arr8);
+
 
 
 // Nested Arrays
