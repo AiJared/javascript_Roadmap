@@ -179,7 +179,7 @@ console.log("The length of favoriteFruites using the variable: ", lengthOfFavori
 
 /*
 Now if you wanted to add elements at a specific index, you would use
-the splic() method. Check this out.
+the splice() method. Check this out.
 */
 let arrOfShapes = ["circle", "triangle", "rectangle", "Pentagon"];
 arrOfShapes.splice(2, 0, "square", "trapezoid");
@@ -225,6 +225,11 @@ an array. Deleting the last element is done with pop().
 arr8.pop();
 console.log(arr8);
 
+/*
+Deleting the first element can be done with shift().
+*/
+arr8.shift();
+console.log(arr8);
 
 
 // Nested Arrays
