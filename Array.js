@@ -231,6 +231,21 @@ Deleting the first element can be done with shift().
 arr8.shift();
 console.log(arr8);
 
+/*
+We saw how the splice() method adds elements to specific index
+positions, it also deletes them starting with the specified
+starting index position just as it adds them.
+*/
+arr8.splice(1, 3);
+console.log(arr8);
+/*
+Remember that the splice() method took three parameters when used
+to adding new elements right, when it comes to deleting it only
+takes two, the first one is the starting index and the second one
+is the number of elements to be deleted.
+*/
+
+
 
 // Nested Arrays
 /*A nested array is an array that have other arrays inside it
