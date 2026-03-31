@@ -179,7 +179,7 @@ console.log("The length of favoriteFruites using the variable: ", lengthOfFavori
 
 /*
 Now if you wanted to add elements at a specific index, you would use
-the splic() method. Check this out.
+the splice() method. Check this out.
 */
 let arrOfShapes = ["circle", "triangle", "rectangle", "Pentagon"];
 arrOfShapes.splice(2, 0, "square", "trapezoid");
@@ -217,6 +217,44 @@ and also multiple values using comma separation to an existing array.
 arr8 = arr7.concat(7, 8, 9);
 console.log(arr8);
 
+// Deleting Elements
+/*
+There are several ways in which you can delete elements from 
+an array. Deleting the last element is done with pop().
+*/
+arr8.pop();
+console.log(arr8);
+
+/*
+Deleting the first element can be done with shift().
+*/
+arr8.shift();
+console.log(arr8);
+
+/*
+We saw how the splice() method adds elements to specific index
+positions, it also deletes them starting with the specified
+starting index position just as it adds them.
+*/
+arr8.splice(1, 3);
+console.log(arr8);
+/*
+Remember that the splice() method took three parameters when used
+to adding new elements right, when it comes to deleting it only
+takes two, the first one is the starting index and the second one
+is the number of elements to be deleted.
+
+Now if you wish to delete an element and not change any of the later
+indeces you can use the operator delete. It is not a method but
+can change the value of a certain position to undefined.
+*/
+delete arr8[0];
+console.log(arr8);
+
+/*
+The delete operator is useful if you want to retain the length
+of the array for some reason.
+*/
 
 
 // Nested Arrays
