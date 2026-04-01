@@ -272,7 +272,10 @@ let findValue2 = arr9.find(e => e === 10);
 console.log(findValue, findValue2);
 /*
 The log above returns 6 and undefined because 6 is an element
-in the array while 10 is not.
+in the array while 10 is not. A function can take an input then
+work on it and return an output. In the case above, the two
+functions took inputs 6 and 10, checked whether they exist in 
+the array and then returned 6 and undefined respectively.
 */
 
 
