@@ -270,6 +270,10 @@ arr9 = [2, 6, 7, 8];
 let findValue = arr9.find(function(e) {return e === 6});
 let findValue2 = arr9.find(e => e === 10);
 console.log(findValue, findValue2);
+/*
+The log above returns 6 and undefined because 6 is an element
+in the array while 10 is not.
+*/
 
 
 
