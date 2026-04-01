@@ -288,7 +288,17 @@ occurance and if it doesn't, it will return -1.
 let findIndex = arr9.indexOf(6);
 let findIndex2 = arr9.indexOf(10);
 console.log(findIndex, findIndex2);
-
+/*
+If you want to find the next occurence for example of 2 in our array
+above you can add an argument to the indexOf() method specifying where
+it should start to search from.
+*/
+let findIndex3 = arr9.indexOf(6, 2);
+console.log(findIndex3);
+/*
+The above will log -1 since 6 isn't in any index position starting
+from 2 going forward.
+*/
 
 
 
