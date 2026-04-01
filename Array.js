@@ -298,6 +298,15 @@ console.log(findIndex3);
 /*
 The above will log -1 since 6 isn't in any index position starting
 from 2 going forward.
+Finally, we can find the last occurence using the lastIndexOf()
+method.
+*/
+let animals = ["dog", "cat", "horse", "Platypus", "dog"];
+let lastDog = animals.lastIndexOf("dog");
+console.log(lastDog);
+/*
+The index value of the lastDog will be 4 since it is the 
+last occurence.
 */
 
 
