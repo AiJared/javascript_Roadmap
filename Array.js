@@ -256,6 +256,60 @@ The delete operator is useful if you want to retain the length
 of the array for some reason.
 */
 
+// Finding Elements
+/*
+To find elements in an array you will use the find() method and what
+goes inside the find method is a function. That function will be
+executed on all the elements of the array until it finds the element
+or return undefined. In the code example below, we are writting
+two functions to check for two different elements in the array.
+The functions look different but they actually perform the same
+task. 
+*/
+arr9 = [2, 6, 7, 8];
+let findValue = arr9.find(function(e) {return e === 6});
+let findValue2 = arr9.find(e => e === 10);
+console.log(findValue, findValue2);
+/*
+The log above returns 6 and undefined because 6 is an element
+in the array while 10 is not. A function can take an input then
+work on it and return an output. In the case above, the two
+functions took inputs 6 and 10, checked whether they exist in 
+the array and then returned 6 and undefined respectively.
+*/
+
+// Finding the Index Position of an Element
+/*
+Now might also want to know the index position in which a specifc
+element is at. To achieve that, you would use the indexOf() method.
+If the element occurs more than once it will only return the first
+occurance and if it doesn't, it will return -1.
+*/
+let findIndex = arr9.indexOf(6);
+let findIndex2 = arr9.indexOf(10);
+console.log(findIndex, findIndex2);
+/*
+If you want to find the next occurence for example of 2 in our array
+above you can add an argument to the indexOf() method specifying where
+it should start to search from.
+*/
+let findIndex3 = arr9.indexOf(6, 2);
+console.log(findIndex3);
+/*
+The above will log -1 since 6 isn't in any index position starting
+from 2 going forward.
+Finally, we can find the last occurence using the lastIndexOf()
+method.
+*/
+let animals = ["dog", "cat", "horse", "Platypus", "dog"];
+let lastDog = animals.lastIndexOf("dog");
+console.log(lastDog);
+/*
+The index value of the lastDog will be 4 since it is the 
+last occurence.
+*/
+
+
 
 // Nested Arrays
 /*A nested array is an array that have other arrays inside it
