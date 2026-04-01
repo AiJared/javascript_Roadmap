@@ -256,6 +256,22 @@ The delete operator is useful if you want to retain the length
 of the array for some reason.
 */
 
+// Finding Elements
+/*
+To find elements in an array you will use the find() method and what
+goes inside the find method is a function. That function will be
+executed on all the elements of the array until it finds the element
+or return undefined. In the code example below, we are writting
+two functions to check for two different elements in the array.
+The functions look different but they actually perform the same
+task. 
+*/
+arr9 = [2, 6, 7, 8];
+let findValue = arr9.find(function(e) {return e === 6});
+let findValue2 = arr9.find(e => e === 10);
+console.log(findValue, findValue2);
+
+
 
 // Nested Arrays
 /*A nested array is an array that have other arrays inside it
