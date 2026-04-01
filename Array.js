@@ -278,6 +278,18 @@ functions took inputs 6 and 10, checked whether they exist in
 the array and then returned 6 and undefined respectively.
 */
 
+// Finding the Index Position of an Element
+/*
+Now might also want to know the index position in which a specifc
+element is at. To achieve that, you would use the indexOf() method.
+If the element occurs more than once it will only return the first
+occurance and if it doesn't, it will return -1.
+*/
+let findIndex = arr9.indexOf(6);
+let findIndex2 = arr9.indexOf(10);
+console.log(findIndex, findIndex2);
+
+
 
 
 // Nested Arrays
