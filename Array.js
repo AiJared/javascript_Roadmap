@@ -309,6 +309,42 @@ The index value of the lastDog will be 4 since it is the
 last occurence.
 */
 
+// Sorting
+/*
+There is an inbuilt method for sorting arrays. It sorts numbers
+from small to high and strings A-Z. You can call sort() on an
+array and the elements will be arranged in a sorted order.
+*/
+let names = ["James", "Alicia", "Fatiha", "Maria", "Bert"];
+names.sort();
+console.log(names);
+/*
+As you can see in the logs, the names are now being arranged in
+alphabetical order. For numbers, they would be aranged in ascending
+order as shown below.
+*/
+let ages = [18, 72, 33, 56, 40];
+ages.sort();
+console.log(ages);
+
+// Reversing
+/*
+The elements of an array can be reversed by calling the built-in
+method reverse() on an array. It puts last element first and first
+element last. It doesn't matter whether the array is sorted or
+not, it just reverses the order.
+
+The order of names before reversing is currently
+["Alicia", "Bert", "Fatiha", "James", "Maria"]
+Let's see how it looks like after reversing.
+*/
+names.reverse();
+console.log(names);
+/*
+As you can see in the logs, the order has been reversed starting
+with Maria and ending with Alicia.
+*/
+
 
 
 // Nested Arrays
