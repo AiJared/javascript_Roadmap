@@ -309,6 +309,17 @@ The index value of the lastDog will be 4 since it is the
 last occurence.
 */
 
+// Sorting
+/*
+There is an inbuilt method for sorting arrays. It sorts numbers
+from small to high and strings A-Z. You can call sort() on an
+array and the elements will be arranged in a sorted order.
+*/
+let names = ["James", "Alicia", "Fatiha", "Maria", "Bert"];
+names.sort();
+console.log(names);
+
+
 
 
 // Nested Arrays
