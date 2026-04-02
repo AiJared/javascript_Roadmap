@@ -318,6 +318,14 @@ array and the elements will be arranged in a sorted order.
 let names = ["James", "Alicia", "Fatiha", "Maria", "Bert"];
 names.sort();
 console.log(names);
+/*
+As you can see in the logs, the names are now being arranged in
+alphabetical order. For numbers, they would be aranged in ascending
+order as shown below.
+*/
+let ages = [18, 72, 33, 56, 40];
+ages.sort();
+console.log(ages);
 
 
 
