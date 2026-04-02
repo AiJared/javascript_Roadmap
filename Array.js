@@ -340,6 +340,10 @@ Let's see how it looks like after reversing.
 */
 names.reverse();
 console.log(names);
+/*
+As you can see in the logs, the order has been reversed starting
+with Maria and ending with Alicia.
+*/
 
 
 
