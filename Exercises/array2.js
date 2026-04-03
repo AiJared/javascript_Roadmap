@@ -46,3 +46,7 @@ shpList1 = shpList.concat(newList);
 console.log(shpList1);
 shpList2 = shpList1.concat(newList);
 console.log(shpList2);
+
+//Get the last index value of Pop and output it to the console.
+let lastPop = shpList2.lastIndexOf("Pop");
+console.log(lastPop);
