@@ -26,3 +26,6 @@ console.log(shpList);
 
 let findIndexOfMilk = shpList.indexOf("Milk");
 console.log(findIndexOfMilk);
+
+shpList.splice(1, 0, "Carrots", "Lettuce");
+console.log(shpList);
