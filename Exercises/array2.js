@@ -50,3 +50,4 @@ console.log(shpList2);
 //Get the last index value of Pop and output it to the console.
 let lastPop = shpList2.lastIndexOf("Pop");
 console.log(lastPop);
+console.log(shpList2);
