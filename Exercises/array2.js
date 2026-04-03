@@ -38,5 +38,11 @@ shpList.splice(1, 0, "Carrots", "Lettuce");
 console.log(shpList);
 
 // Create a new list containing Juice and Pop.
-let newShpList = ["Juice", "Pop"];
-console.log(newShpList);
+let newList = ["Juice", "Pop"];
+console.log(newList);
+
+// Combine both lists, adding the new list twice to the end of the first list.
+shpList1 = shpList.concat(newList);
+console.log(shpList1);
+shpList2 = shpList1.concat(newList);
+console.log(shpList2);
