@@ -13,19 +13,30 @@
 ["Bananas", "Carrots", "Lettuce", "Eggs", "Milk", "Juice",
 "Pop", "Juice", "Pop"]
 */
+// Create an empty array to use as a shopping list.
 shpList = [];
+// Add Milk, Bread, and Apples to your list.
 shpList.push("Milk", "Bread", "Apples");
+// Update "Bread" with Bananas and Eggs.
 shpList.splice(1, 1, "Bananas", "Eggs");
 console.log(shpList);
 
+//Remove the last item from the array and output it into the console.
 shpList.pop();
 console.log(shpList);
 
+// Sort the list alphabetically.
 shpList.sort();
 console.log(shpList);
 
+// Find and output the index value of Milk.
 let findIndexOfMilk = shpList.indexOf("Milk");
 console.log(findIndexOfMilk);
 
+// After Bananas, add Carrots and Lettuce.
 shpList.splice(1, 0, "Carrots", "Lettuce");
 console.log(shpList);
+
+// Create a new list containing Juice and Pop.
+let newShpList = ["Juice", "Pop"];
+console.log(newShpList);
