@@ -17,3 +17,7 @@ shpList = [];
 shpList.push("Milk", "Bread", "Apples");
 shpList.splice(1, 1, "Bananas", "Eggs");
 console.log(shpList);
+shpList.pop();
+console.log(shpList);
+shpList.sort();
+console.log(shpList);
