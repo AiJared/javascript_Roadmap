@@ -58,5 +58,6 @@ console.log(middleValue);
 The first step is to get the second array of arrays which is index
 1, then we get the second array inside of it which is also in index
 1 then finally we get the it's second value which again is in index
-1.
+1. This is useful in many situations for example when working with
+matrices.
 */
