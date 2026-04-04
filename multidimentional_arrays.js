@@ -19,3 +19,20 @@ two-dimentional array. We can do it like this.
 */
 
 let arrOfArrays2 = [[1,2,3], [4,5,6], [7,8,9]];
+
+/*
+If we want to access the element of any of the inner arrays in the
+array above for example, we will have to specify the index position
+twice, the first one being that of the array itself and the second one
+is for the element itself.
+*/
+let value1 = arrOfArrays2[0][1];
+console.log(value1);
+
+let value2 = arrOfArrays2[2][2];
+console.log(value2);
+
+/*
+As you can see the first one takes the second element of the first
+array and second takes the third element of the third array.
+*/
