@@ -5,3 +5,5 @@
 */
 let arr = [1,2,3];
 let arrayOfArrs = [arr, arr, arr];
+let findValue = arrayOfArrs[1][1];
+console.log(findValue);
