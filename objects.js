@@ -29,6 +29,7 @@ Let's take a look at an example below.
 let dog = {
     dogName: "Js",
     weight: 2.4,
+    color: "brown",
     breed: "chihuahua",
     age: 3,
     burglarBite: true
