@@ -53,3 +53,14 @@ here we use the property name as shown below.
 
 let dogColor = dog["color"];
 console.log(dogColor);
+
+/*
+There is also another way of doing this, instead of putting the
+property name in the square brackets, it can also be after the
+variable with a dot in between them, hence a "property". That's
+how you know that something is a property by the way, for methods
+they come with a parenthesis at the end.
+*/
+
+let dogAge = dog.age;
+console.log(dogAge);
