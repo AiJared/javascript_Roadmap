@@ -11,4 +11,10 @@ index numbers as we saw in arrays. All the other objects including
 these objects are with "named properties". This means that instead
 of an automatically generated index number, we are giving an object
 a custom descriptive name.
+
+As we can tell from the code below, arrays are being identified by
+javascript as of being of type object.
 */
+
+arr = [1,2,3];
+console.log(typeof arr);
