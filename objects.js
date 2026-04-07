@@ -8,5 +8,7 @@ and objects dispite being of the same type is that arrays are
 objects with "indexed properties" that means the elements in the array
 are represented and accessed on the outside using automatically assigned
 index numbers as we saw in arrays. All the other objects including
-these objects are with "named properties".
+these objects are with "named properties". This means that instead
+of an automatically generated index number, we are giving an object
+a custom descriptive name.
 */
