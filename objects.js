@@ -18,3 +18,11 @@ javascript as of being of type object.
 
 arr = [1,2,3];
 console.log(typeof arr);
+
+/*
+Objects are not too dissimilar from real world objects, they have
+properties and can perform actions, "methods". An object is a
+chance to group multiple values into one. Here we use curly braces.
+Let's take a look at an example below.
+*/
+
