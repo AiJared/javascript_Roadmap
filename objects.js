@@ -26,3 +26,10 @@ chance to group multiple values into one. Here we use curly braces.
 Let's take a look at an example below.
 */
 
+let dog = {
+    dogName: "Js",
+    weight: 2.4,
+    breed: "chihuahua",
+    age: 3,
+    burglarBite: true
+};
