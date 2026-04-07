@@ -34,3 +34,10 @@ let dog = {
     age: 3,
     burglarBite: true
 };
+
+/*
+We just created an variable called dog and assigned to it a value 
+which is an object, we can tell it is an object because of the
+curly braces and inside them we can see properties which have 
+values in them.
+*/
