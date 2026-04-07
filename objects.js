@@ -1,3 +1,4 @@
+// Objects in Javascript
 /*
 If you are coming from Python, you will quickly learn that objects
 are very similar to Python's "dictionaries".
@@ -19,6 +20,7 @@ javascript as of being of type object.
 arr = [1,2,3];
 console.log(typeof arr);
 
+// Creating an Object
 /*
 Objects are not too dissimilar from real world objects, they have
 properties and can perform actions, "methods". An object is a
@@ -41,3 +43,13 @@ which is an object, we can tell it is an object because of the
 curly braces and inside them we can see properties which have 
 values in them.
 */
+
+// Accessing the Properties
+/*
+Accessing objects in Javascript is somehow similar to accessing 
+elements of an array except that instead of using index positions
+here we use the property name as shown below.
+*/
+
+let dogColor = dog["color"];
+console.log(dogColor);
