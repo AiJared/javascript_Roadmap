@@ -1,0 +1,12 @@
+/*
+If you are coming from Python, you will quickly learn that objects
+are very similar to Python's "dictionaries".
+In fact we have already been secretly introduced to objects via
+arrays, arrays are "object" type if you try to log the type of
+an array it will give you object. The difference between arrays
+and objects dispite being of the same type is that arrays are
+objects with "indexed properties" that means the elements in the array
+are represented and accessed on the outside using automatically assigned
+index numbers as we saw in arrays. All the other objects including
+these objects are with "named properties".
+*/
