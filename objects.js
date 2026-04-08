@@ -73,5 +73,11 @@ can use two different techniques. Check this out.
 */
 
 dog["color"] = "Grey";
-dog.weight = 2.3;
+dog.weight = 2.3; // utilizing the property feature here
 console.log(dog);
+
+/*
+As you can see in the logs, the two techniques above updates a 
+property in an object the first one uses square brackets and the
+second one utilizes the fact that this is a property to do it.
+*/
