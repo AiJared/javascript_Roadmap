@@ -64,3 +64,48 @@ they come with a parenthesis at the end.
 
 let dogAge = dog.age;
 console.log(dogAge);
+
+// Updating Objects
+/*
+We can change the value of our properties in an object just as we
+did in arrays because again, arrays are still objects but here we
+can use two different techniques. Check this out.
+*/
+
+dog["color"] = "Grey";
+dog.weight = 2.3; // utilizing the property feature here
+console.log(dog);
+
+/*
+As you can see in the logs, the two techniques above updates a 
+property in an object the first one uses square brackets and the
+second one utilizes the fact that this is a property to do it.
+
+It is also important to note that if changed the data type of a property
+for example dog's age to three from 3, it won't cause any problems
+Javascript will just change the whole value and the data type to the
+new situation
+
+Another thing to note is that we are using the literal string values
+to refer to a property, we can also use variables to do the exact
+same thing, check this out.
+*/
+
+let variable = "age";
+console.log(dog[variable]);
+
+/*
+If we change the value of the variable to another property, we will
+be accessing another property with it.
+*/
+
+variable = "breed";
+console.log(dog[variable]);
+
+/*
+And if we update the values this way, it would still work as it does
+when we do it when refering to it by its literal string.
+*/
+
+dog[variable] = "dachshund";
+console.log(dog["breed"]);
