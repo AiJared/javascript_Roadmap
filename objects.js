@@ -93,3 +93,11 @@ same thing, check this out.
 
 let variable = "age";
 console.log(dog[variable]);
+
+/*
+If we change the value of the variable to another property, we will
+be accessing another property with it.
+*/
+
+variable = "breed";
+console.log(dog[variable]);
