@@ -101,3 +101,11 @@ be accessing another property with it.
 
 variable = "breed";
 console.log(dog[variable]);
+
+/*
+And if we update the values this way, it would still work as it does
+when we do it when refering to it by its literal string.
+*/
+
+dog[variable] = "dachshund";
+console.log(dog["breed"]);
