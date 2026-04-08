@@ -64,3 +64,14 @@ they come with a parenthesis at the end.
 
 let dogAge = dog.age;
 console.log(dogAge);
+
+// Updating Objects
+/*
+We can change the value of our properties in an object just as we
+did in arrays because again, arrays are still objects but here we
+can use two different techniques. Check this out.
+*/
+
+dog["color"] = "Grey";
+dog.weight = 2.3;
+console.log(dog);
