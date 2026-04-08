@@ -85,4 +85,11 @@ It is also important to note that if changed the data type of a property
 for example dog's age to three from 3, it won't cause any problems
 Javascript will just change the whole value and the data type to the
 new situation
+
+Another thing to note is that we are using the literal string values
+to refer to a property, we can also use variables to do the exact
+same thing, check this out.
 */
+
+let variable = "age";
+console.log(dog[variable]);
