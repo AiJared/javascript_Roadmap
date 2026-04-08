@@ -80,4 +80,9 @@ console.log(dog);
 As you can see in the logs, the two techniques above updates a 
 property in an object the first one uses square brackets and the
 second one utilizes the fact that this is a property to do it.
+
+It is also important to note that if changed the data type of a property
+for example dog's age to three from 3, it won't cause any problems
+Javascript will just change the whole value and the data type to the
+new situation
 */
