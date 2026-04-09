@@ -28,4 +28,6 @@ console.log(myCar.color);
 
 variable = "forSale";
 myCar[variable] = false;
-console.log(myCar.forSale);
+
+console.log("The make of the car is " + myCar.make + " and the model is " + myCar.model);
+console.log("Is the car for sale? " + myCar.forSale);
