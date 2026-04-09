@@ -21,3 +21,7 @@ myCar = {
     color: "white",
     forSale: true
 }
+
+let variable = "color";
+myCar[variable] = "black";
+console.log(myCar.color);
