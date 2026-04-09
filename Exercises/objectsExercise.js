@@ -13,3 +13,11 @@ forSale property to indicate whether the car is available for purchase.
 4. Output make and model into the console.
 5. Output the value of forSale into the console.
 */
+
+myCar = {
+    make: "BMW",
+    model: "M3",
+    year: 2020,
+    color: "white",
+    forSale: true
+}
