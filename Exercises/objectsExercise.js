@@ -25,3 +25,7 @@ myCar = {
 let variable = "color";
 myCar[variable] = "black";
 console.log(myCar.color);
+
+variable = "forSale";
+myCar[variable] = false;
+console.log(myCar.forSale);
