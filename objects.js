@@ -109,3 +109,40 @@ when we do it when refering to it by its literal string.
 
 dog[variable] = "dachshund";
 console.log(dog["breed"]);
+
+// Working with Objects
+/*
+When working with objects and arrays, you will these often combined.
+We will deal with combining objects and arrays and also objects
+inside objects.
+*/
+
+// Objects in Objects
+/*
+Let's say we have an object for a company and  this company
+an address which is an object. If we give this company an address
+it will be an object inside an object.
+*/
+
+let company = {
+    companyName: "Axis AI",
+    activity: "AI Security",
+    address: {
+        street: "2nd Street",
+        number: 123,
+        zipcode: 1,
+        city: "Nairobi",
+        state: Kenya
+    },
+    yearOfEstablishment: 2026    
+}
+
+/*
+As you can see, the address object have a number of properties
+with values in it and this can go deeper than that.
+To access values within the address object we can use one of the
+two techniques below.
+*/
+
+company.address.zipcode = "12";
+company["address"]["number"] = "100";
