@@ -116,3 +116,23 @@ When working with objects and arrays, you will these often combined.
 We will deal with combining objects and arrays and also objects
 inside objects.
 */
+
+// Objects in Objects
+/*
+Let's say we have an object for a company and  this company
+an address which is an object. If we give this company an address
+it will be an object inside an object.
+*/
+
+let company = {
+    companyName: "Axis AI",
+    activity: "AI Security",
+    address: {
+        street: "2nd Street",
+        number: 123,
+        zipcode: 1,
+        city: "Nairobi",
+        state: Kenya
+    },
+    yearOfEstablishment: 2026    
+}
