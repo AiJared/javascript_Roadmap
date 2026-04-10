@@ -136,3 +136,13 @@ let company = {
     },
     yearOfEstablishment: 2026    
 }
+
+/*
+As you can see, the address object have a number of properties
+with values in it and this can go deeper than that.
+To access values within the address object we can use one of the
+two techniques below.
+*/
+
+company.address.zipcode = "12";
+company["address"]["number"] = "100";
