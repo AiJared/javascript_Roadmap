@@ -109,3 +109,10 @@ when we do it when refering to it by its literal string.
 
 dog[variable] = "dachshund";
 console.log(dog["breed"]);
+
+// Working with Objects
+/*
+When working with objects and arrays, you will these often combined.
+We will deal with combining objects and arrays and also objects
+inside objects.
+*/
