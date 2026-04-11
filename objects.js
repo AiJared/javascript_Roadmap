@@ -206,3 +206,6 @@ We can access the street name of the first address for example by
 accesing the index position the object is in then the street property
 as shown below.
 */
+
+let streetName = addresses[0].street
+console.log(streetName);
