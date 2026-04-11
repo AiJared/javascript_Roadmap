@@ -200,3 +200,9 @@ let addresses = [
         state: "Texas"
     }
 ];
+
+/*
+We can access the street name of the first address for example by
+accesing the index position the object is in then the street property
+as shown below.
+*/
