@@ -132,7 +132,7 @@ let company = {
         number: 123,
         zipcode: 1,
         city: "Nairobi",
-        state: Kenya
+        state: "Kenya"
     },
     yearOfEstablishment: 2026    
 }
@@ -146,3 +146,25 @@ two techniques below.
 
 company.address.zipcode = "12";
 company["address"]["number"] = "100";
+
+// Arrays in Objects
+/*
+Now let's assume our company has a range of activities instead of
+just one. So we will put those activities inside of an array inside
+that object. Check this out.
+*/
+
+company = {
+    companyName: "Axis AI",
+    activity: ["Security", "AI Agents", "Business Software"],
+    address: {
+        street: "2nd Street",
+        number: 123,
+        zipcode: 1,
+        city: "Nairobi",
+        state: "Kenya"
+    },
+    yearOfEstablishment: 2026
+}
+
+console.log(company);
