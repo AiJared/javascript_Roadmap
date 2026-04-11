@@ -132,7 +132,7 @@ let company = {
         number: 123,
         zipcode: 1,
         city: "Nairobi",
-        state: Kenya
+        state: "Kenya"
     },
     yearOfEstablishment: 2026    
 }
@@ -146,3 +146,66 @@ two techniques below.
 
 company.address.zipcode = "12";
 company["address"]["number"] = "100";
+
+// Arrays in Objects
+/*
+Now let's assume our company has a range of activities instead of
+just one. So we will put those activities inside of an array inside
+that object. Check this out.
+*/
+
+company = {
+    companyName: "Axis AI",
+    activities: ["Security", "AI Agents", "Business Software"],
+    address: {
+        street: "2nd Street",
+        number: 123,
+        zipcode: 1,
+        city: "Nairobi",
+        state: "Kenya"
+    },
+    yearOfEstablishment: 2026
+}
+console.log(company);
+
+/*
+Retrieving values from the array is also very similar. We just first
+access the property then use square brackets to access the value
+using it's index number as shown below.
+*/
+
+activity = company.activities[1];
+console.log(activity);
+
+// Objects in Arrays
+/*
+It is also possible that our company has more than one addresses.
+So we might need to put them all inside a list, hence an array.
+Let's do an example with two addresses.
+*/
+
+let addresses = [
+    {
+        street: "1st Street",
+        number: 132,
+        zipcode: 33116,
+        city: "Miami",
+        state: "Florida"
+    },
+    {
+        street: "1st Waste Avenue",
+        number: 5,
+        zipcode: 75001,
+        city: "Addison",
+        state: "Texas"
+    }
+];
+
+/*
+We can access the street name of the first address for example by
+accesing the index position the object is in then the street property
+as shown below.
+*/
+
+let streetName = addresses[0].street
+console.log(streetName);
