@@ -176,3 +176,27 @@ using it's index number as shown below.
 
 activity = company.activities[1];
 console.log(activity);
+
+// Objects in Arrays
+/*
+It is also possible that our company has more than one addresses.
+So we might need to put them all inside a list, hence an array.
+Let's do an example with two addresses.
+*/
+
+let addresses = [
+    {
+        street: "1st Street",
+        number: 132,
+        zipcode: 33116,
+        city: "Miami",
+        state: "Florida"
+    },
+    {
+        street: "1st Waste Avenue",
+        number: 5,
+        zipcode: 75001,
+        city: "Addison",
+        state: "Texas"
+    }
+];
