@@ -156,7 +156,7 @@ that object. Check this out.
 
 company = {
     companyName: "Axis AI",
-    activity: ["Security", "AI Agents", "Business Software"],
+    activities: ["Security", "AI Agents", "Business Software"],
     address: {
         street: "2nd Street",
         number: 123,
@@ -166,5 +166,13 @@ company = {
     },
     yearOfEstablishment: 2026
 }
-
 console.log(company);
+
+/*
+Retrieving values from the array is also very similar. We just first
+access the property then use square brackets to access the value
+using it's index number as shown below.
+*/
+
+activity = company.activities[1];
+console.log(activity);
