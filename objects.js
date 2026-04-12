@@ -237,3 +237,11 @@ company = {
     ],
     yearOfEstablishment: 2026
 }
+
+/*
+To access the alements of an increasingly nested object, we use the
+same logic as we have been doing. All we have to know is where each
+is in terms of oder, for example here we are starting with an object
+then array that has objects inside of it. So if we wanted to access
+the street of the first address we would do it as shown below.
+*/
