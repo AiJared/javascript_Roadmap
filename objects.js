@@ -245,3 +245,5 @@ is in terms of oder, for example here we are starting with an object
 then array that has objects inside of it. So if we wanted to access
 the street of the first address we would do it as shown below.
 */
+
+console.log(company.addresses[0].street);
