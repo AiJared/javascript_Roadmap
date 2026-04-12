@@ -209,3 +209,5 @@ as shown below.
 
 let streetName = addresses[0].street
 console.log(streetName);
+
+// Objects in Arrays in Objects
