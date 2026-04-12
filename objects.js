@@ -215,3 +215,25 @@ console.log(streetName);
 To prove that this can go as many levels as we would like. We are
 going to give out company object, an array of address objects.
 */
+
+company = {
+    companyName: "Axis AI",
+    activities: ["Security", "AI Agents", "Business Software"],
+    addresses: [
+    {
+        street: "1st Street",
+        number: 132,
+        zipcode: 33116,
+        city: "Miami",
+        state: "Florida"
+    },
+    {
+        street: "1st Waste Avenue",
+        number: 5,
+        zipcode: 75001,
+        city: "Addison",
+        state: "Texas"
+    }
+    ],
+    yearOfEstablishment: 2026
+}
