@@ -45,3 +45,21 @@ friend's first names, last names, and an ID value.
 let people = {
     friends: []
 }
+
+let friend1 = {
+    firstName: "Joseph",
+    lastName: "Indieka",
+    ID: 1
+}
+
+let friend2 = {
+    firstName: "Benson",
+    lastName: "Wachira",
+    ID: 2,
+}
+
+let friend3 = {
+    firstName: "Peter",
+    lastname: "Weis",
+    ID: 3
+}
