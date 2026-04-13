@@ -42,10 +42,13 @@ friend's first names, last names, and an ID value.
 4. Output it to the console.
 */
 
+// Building the people object
 let people = {
     friends: []
 }
 
+
+// Building the three friends objects
 let friend1 = {
     firstName: "Joseph",
     lastName: "Indieka",
@@ -63,3 +66,8 @@ let friend3 = {
     lastname: "Weis",
     ID: 3
 }
+
+// Adding the three friends objects in the friends array
+people.friends.push(friend1, friend2, friend3);
+// Outputing them in the console
+console.log(people.friends);
