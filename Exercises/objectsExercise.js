@@ -41,3 +41,7 @@ friend's first names, last names, and an ID value.
 3. Add the three friends to the friend array.
 4. Output it to the console.
 */
+
+let people = {
+    friends: []
+}
