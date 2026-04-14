@@ -41,3 +41,7 @@ console.log(theList);
 // Add LAST to the last position in the array
 theList.push("LAST");
 console.log(theList);
+
+// Remove the "null", "undefined" and the object
+theList.splice(4,3);
+console.log(theList);
