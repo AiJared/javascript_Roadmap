@@ -29,3 +29,7 @@ console.log(theList);
 // Add FIRST to the start of the array
 theList.splice(0,0, "FIRST");
 console.log(theList);
+
+// Assign "hello world" to the fourth item value
+theList.splice(3,1, "hello world");
+console.log(theList);
