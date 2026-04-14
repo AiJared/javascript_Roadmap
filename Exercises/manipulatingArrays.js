@@ -37,3 +37,7 @@ console.log(theList);
 // Assign MIDDLE to the third index value
 theList.splice(2,1, "MIDDLE");
 console.log(theList);
+
+// Add LAST to the last position in the array
+theList.push("LAST");
+console.log(theList);
