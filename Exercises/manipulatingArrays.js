@@ -25,3 +25,7 @@ console.log(theList);
 // Remove the last item
 theList.pop();
 console.log(theList);
+
+// Add FIRST to the start of the array
+theList.splice(0,0, "FIRST");
+console.log(theList);
