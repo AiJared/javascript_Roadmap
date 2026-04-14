@@ -17,3 +17,7 @@ You can take the following steps, or adopt your own approach:
 
 let theList = ['Laurence', 'Svekis', true, 35, null, undefined,
 {test: 'one', score: 55}, ['one', 'two']];
+
+// Remove the first item
+theList.splice(0,1);
+console.log(theList);
