@@ -21,3 +21,7 @@ let theList = ['Laurence', 'Svekis', true, 35, null, undefined,
 // Remove the first item
 theList.splice(0,1);
 console.log(theList);
+
+// Remove the last item
+theList.pop();
+console.log(theList);
