@@ -33,3 +33,7 @@ console.log(theList);
 // Assign "hello world" to the fourth item value
 theList.splice(3,1, "hello world");
 console.log(theList);
+
+// Assign MIDDLE to the third index value
+theList.splice(2,1, "MIDDLE");
+console.log(theList);
