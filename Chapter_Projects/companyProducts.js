@@ -12,4 +12,26 @@ structure.
 */
 
 // Create an array to hold an inventory of store items.
-let items = [];
+let cars = [];
+
+// Create three items, each having the properties of name, model, cost, and quantity
+let car1 = {
+    nme: "BMW",
+    model: "iM",
+    cost: 85000,
+    quantity: 4
+}
+
+let car2 = {
+    nme: "Mercedes",
+    model: "S Class",
+    cost: 175000,
+    quantity: 3
+}
+
+let car3 = {
+    nme: "Rolls Royce",
+    model: "Cullinan",
+    cost: 470000,
+    quantity: 2
+}
