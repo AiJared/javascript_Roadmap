@@ -10,3 +10,6 @@ the inventory array to the console.
 Experiment by adding and accessing more elements within your data
 structure.
 */
+
+// Create an array to hold an inventory of store items.
+let items = [];
