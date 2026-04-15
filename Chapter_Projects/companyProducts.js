@@ -35,3 +35,11 @@ let car3 = {
     cost: 470000,
     quantity: 2
 }
+
+/*
+Add all three objects to the main array using an array method, and then log
+the inventory array to the console.
+*/
+
+cars.push(car1, car2, car3);
+console.log(cars);
