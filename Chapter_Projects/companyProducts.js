@@ -43,3 +43,11 @@ the inventory array to the console.
 
 cars.push(car1, car2, car3);
 console.log(cars);
+
+/*
+Access the quantity element of your third item, and log it to the console.
+Experiment by adding and accessing more elements within your data
+structure.
+*/
+
+console.log(cars[2].quantity);
